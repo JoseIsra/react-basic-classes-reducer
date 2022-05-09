@@ -61,6 +61,7 @@ export function UseReducer({ name }) {
         dispatch({ type: "EXIST_CODE" });
       }, 2000);
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [state.loading]);
 
   const checkCode = (e) => {
